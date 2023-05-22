@@ -171,3 +171,9 @@ body {
 .card-footer .ph-fill {
   font-size: 56px;
 }
+
+@media (max-width: 600px) {
+  div {
+    grid-template-columns: fr;
+  }
+}
